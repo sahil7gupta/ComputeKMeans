@@ -2,10 +2,10 @@
 
 Input image should be in pgm format.
 
-To complie the programs, use:
+To compile the program, use:
 gcc ComputeKMeans.c -o ComputeKMeans
 
-Purpose: It Computes the KMean algorithm on an input image and generates K cluster specific images. Each generated new cluster specific image has the particular cluster’s all pixels set as 255 and all other pixels as 0.
+Purpose: It applies the KMean algorithm on an input image and generates K cluster specific images. Each generated new cluster specific image has the particular cluster’s all pixels set as 255 and all other pixels as 0.
 Author: Sahil Gupta
 Parameters: [input image filename] [No of images to output(value of K)] [output FolderName] 
 Date: 08/04/2017
